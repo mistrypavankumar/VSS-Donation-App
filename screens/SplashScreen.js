@@ -5,7 +5,7 @@ import { images } from "../core/images";
 const SplashScreen = () => {
   return (
     <View>
-      <Image src={images.logo} alt="vss-logo" />
+      <Image source={images.logo} alt="vss-logo" />
     </View>
   );
 };
